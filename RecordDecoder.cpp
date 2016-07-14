@@ -11,7 +11,8 @@
 #include <time.h>
 #include <iostream>
 
-#define FILE_NAME "Record.log"
+#define INPUT_FILE_NAME "Record.log"
+#define OUTPUT_FILE_NAME "Data.log"
 
 using namespace std;
 
@@ -20,13 +21,13 @@ char* decode(int i);
 
 int main()
 {
-    FILE *file = fopen(FILE_NAME, "a");
+    FILE *file = fopen(INPUT_FILE_NAME, "a");
     fprintf(file, "0");
     fclose(file);
 
     FILE *inputFile, *outputFile;
 
-    if((inputFile=fopen(FILE_NAME, "r"))==NULL || (outputFile=fopen("Data.log", "a"))==NULL)
+    if((inputFile=fopen(INPUT_FILE_NAME, "r"))==NULL || (outputFile=fopen(OUTPUT_FILE_NAME, "a"))==NULL)
     {
         printf("ERROR!!!");
         return 1;

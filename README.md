@@ -1,4 +1,4 @@
-# :key: Key Logger 
+﻿# :key: Key Logger 
 
 #### A Terrific Keystroke Recorder
 
@@ -15,7 +15,7 @@ This was actually a pre-project for [TrojanCockroach](https://github.com/MinhasK
 
 3. Wait for some days, then return to the PC, and run **---**. You will get a file named **---**.
 
-4. Now, simply run **---** (do not rename **---*). You will get another file- **---**. Here you will get that you want.
+4. Now, simply run **---** (do not rename **---**). You will get another file- **---**. Here you will get that you want.
 
 5. If you want to remove the Keylogger from that PC, run **---**.
 
