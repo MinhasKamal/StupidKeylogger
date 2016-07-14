@@ -11,17 +11,18 @@ This was actually a pre-project for [TrojanCockroach](https://github.com/MinhasK
 
 1. Download the full package from [here](https://github.com/MinhasKamal/KeyLogger/archive/application.zip), unzip it, and move it to your pen-drive.
 
-2. **WindowsShell.exe** is the compiled and renamed form of **KeyLogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **WindowsShell.lnk** is a link file of **WindowsShell.exe**. Now insert your pen-drive in a computer, and run **Infect.bat**. This will install **WindowsShell.exe** and **WindowsShell.lnk** in that PC (Windows Vista or later).
+2. **---** is the compiled and renamed form of **KeyLogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **---** is a link file of **---**. Now insert your pen-drive in a computer, and run **---**. This will install **---** and **---** in that PC (Windows Vista or later).
 
-3. Wait for some days, then return to the PC, and run **CollectData.bat**. You will get a file named **Record.log**.
+3. Wait for some days, then return to the PC, and run **---**. You will get a file named **---**.
 
-4. Now, simply run **RecordDecoder.exe** (do not rename **Record.log**). You will get another file- **Data.log**. Here you will get that you want.
+4. Now, simply run **---** (do not rename **---*). You will get another file- **---**. Here you will get that you want.
 
-5. If you want to remove the Keylogger from that PC, run **Cure.bat**.
+5. If you want to remove the Keylogger from that PC, run **---**.
 
 
 Surely you can use it in many other ways, and also enhance its ability by adding a screen capturer or sound recorder. But guess what! you have to get your hands dirty. 😈
 
+**Note:** I do not want newbies to abuse my project, so I am not revealing all the secrets. I will not also take any responsibility of someone else's ill act with my program. But I do believe that a real learner will learn a lot from this. 
 
 ### License
 <a rel="license" href="http://www.gnu.org/licenses/gpl.html">
