@@ -1,1 +1,0 @@
-copy %appdata%\Record.log
