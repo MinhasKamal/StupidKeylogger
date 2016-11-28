@@ -1,8 +1,8 @@
 /**
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)
 * Date: 15.Aug.2014
-* License:  GNU General Public License version-3
-* Website: https://github.com/MinhasKamal/KeyLogger
+* License: MIT License
+* Website: https://minhaskamal.github.io/StupidKeyLogger
 * Comment: I spent a whole day doing this little code! But it was really fun!
 **/
 
@@ -32,7 +32,7 @@ main(){
                     fclose(file);
                 }
             }
-            Sleep(1);   //this little sleep inhibids the program from taking full processor cycle
+            Sleep(1);   //this little sleep inhibits the program from taking full processor cycle
         }
     }
 }

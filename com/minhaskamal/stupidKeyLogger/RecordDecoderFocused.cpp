@@ -1,11 +1,10 @@
 /**
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)
 * Date: 15.Aug.2014
-* License:  GNU General Public License version-3
-* Website: https://github.com/MinhasKamal/KeyLogger
-* Comment: A simple ASCII to character decoder, but 
-*    efficient in removing apparently useless data.
-*    Which makes 'password searching' easy!
+* License: MIT License
+* Website: https://minhaskamal.github.io/StupidKeyLogger
+* Comment: A simple ASCII to character decoder, but efficient in removing
+*    apparently useless data. Which makes 'password searching' easy!
 **/
 
 #include <stdio.h>
@@ -60,7 +59,9 @@ int main(){
     return 0;
 }
 
-
+/** 
+* Some codes are commented here for skipping unnecessary characters. 
+**/
 char* decode(int i){
     char* ch;
 	

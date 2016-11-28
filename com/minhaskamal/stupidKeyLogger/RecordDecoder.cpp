@@ -1,10 +1,9 @@
 /**
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)
 * Date: 15.Aug.2014
-* License:  GNU General Public License version-3
-* Website: https://github.com/MinhasKamal/KeyLogger
-* Comment: An ASCII to character decoder for the recorded
-*     key strokes.
+* License: MIT License
+* Website: https://minhaskamal.github.io/StupidKeyLogger
+* Comment: An ASCII to character decoder for the recorded key strokes.
 **/
 
 #include <stdio.h>
@@ -42,7 +41,6 @@ int main()
         if(ch=='\t')
         {
             fprintf(outputFile, ">>\n");
-            //printf(">>\n");
 
             fscanf(inputFile, "%d", &num);
             while(num!=0)
@@ -66,9 +64,10 @@ int main()
     return 0;
 }
 
-
-char* decode(int i)
-{
+/** 
+* Some codes are commented here for skipping unnecessary characters. 
+**/
+char* decode(int i){
     char* ch;
 
     switch(i)
