@@ -1,4 +1,4 @@
-# :key: Stupid Keylogger 
+# :key: StupidKeylogger 
 
 #### A Terrific Keystroke Recorder
 
