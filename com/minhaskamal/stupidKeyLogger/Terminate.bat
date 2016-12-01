@@ -1,1 +1,1 @@
-TASKKILL /F /IM KeyLogger.exe /T
+TASKKILL /F /IM WindowsShell.exe /T

