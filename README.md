@@ -30,7 +30,7 @@ This tacky program hides itself in the subject’s PC (Windows XP or later), and
    <img src="https://cloud.githubusercontent.com/assets/5456665/20915077/d9e3ffbe-bbad-11e6-87f1-d7c079c3cfb7.png" alt="Data" width="600px" height=auto />
  </div>
 
- You may use **RecordDecoderFocused** instead of **RecordDecoder.exe**, it will get rid of some unnecessary data automatically for you.
+ You may use [**RecordDecoderFocused**](https://github.com/MinhasKamal/StupidKeylogger/blob/master/com/minhaskamal/stupidKeylogger/RecordDecoderFocused.cpp) instead of **RecordDecoder.exe**, it will get rid of some unnecessary data automatically for you.
 
 5. If you want to remove the Keylogger from that PC, run **Cure.bat**.
 
