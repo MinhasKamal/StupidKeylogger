@@ -36,7 +36,7 @@ This tacky program hides itself in the subject’s PC (Windows XP or later), and
 
 Surely you can use it in many other ways; and also enhance its ability by adding a screen capturer, or sound recorder, and so on.
 
-**Note:** *I will also not take any responsibility of someone else's ill act with my program*. But I do believe that a real learner will learn a lot from this. 
+**Note:** *I will not take any responsibility of someone else's ill act with my program*. But I do believe that a real learner will learn a lot from this.
 
 This is actually a pre-project for [TrojanCockroach](https://github.com/MinhasKamal/TrojanCockroach).
 
