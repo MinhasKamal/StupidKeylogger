@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <iostream>
+#include<bits/stdc++.h>
 
 #define INPUT_FILE_NAME "Record.log"
 #define OUTPUT_FILE_NAME "Data.log"
