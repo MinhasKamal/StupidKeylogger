@@ -18,7 +18,7 @@ This tacky program hides itself in the subject’s PC (Windows XP or later), and
 
 2. Insert your pen-drive in a computer and run **Infect.bat**. This will install **WindowsShell.exe** (in the *%appdata%* folder) & **WindowsShell.lnk** (in *%appdata%\Microsoft\Windows\Start Menu\Programs\Startup*) in that PC, and start it. 
 
-3. Wait for some days (I know it is hard but be patient), then return to the PC, insert the pen-drive and run **CollectData.bat**. You will get a file named **Record.log**. This is what it contains-
+3. Wait for some days <i>(I know it is hard but be patient)</i>, then return to the PC, insert the pen-drive and run **CollectData.bat**. You will get a file named **Record.log**. This is what it contains-
 
  <div align="center">
    <img src="https://cloud.githubusercontent.com/assets/5456665/20914395/89d6b268-bba9-11e6-9586-dae692aa0405.png" alt="Record" width="600px" height=auto />
