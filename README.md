@@ -1,5 +1,7 @@
 <h1> <img src="https://cloud.githubusercontent.com/assets/5456665/22565016/e5cda4fc-e9b0-11e6-9d02-211b4a84c558.png" width="24" height=auto /> StupidKeylogger </h1>
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=5KR6BA9MYTM62&no_recurring=0&currency_code=USD)
+
 #### A Terrific Keystroke Recorder
 
 This tacky program hides itself in the subject’s PC (Windows XP or later), and silently records all keyboard and mouse operations. It is launched automatically with PC start, then stores data in ASCII code with record-date. Now all you have to do is- collect the record, and decode it.
